@@ -1,0 +1,37 @@
+name: care_circle_new
+description: "A new Flutter project."
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  shared_preferences: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.0 # Check for the latest version
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.6
+  http: ^0.13.5
+  fluttertoast: ^8.2.6
+  image_picker: ^0.8.4+4
+  animate_do: ^3.3.4
+  path_provider: ^2.0.10
+  permission_handler: ^11.3.1
+  image: ^3.0.1
+  intl:
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/admin_image.png
+    - assets/images/circle.png
+    - assets/images/user_home.png
