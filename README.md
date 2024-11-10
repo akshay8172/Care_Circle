@@ -1,4 +1,4 @@
-Carecircle
+
 Carecircle is a transformative platform designed to enhance volunteer engagement and streamline non-profit management. By integrating social networking features, personalized matching, and gamification, Carecircle connects volunteers with opportunities that align with their interests and skills, creating a rewarding and engaging volunteer experience.
 
 Features
