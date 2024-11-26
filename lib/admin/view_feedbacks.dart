@@ -30,12 +30,7 @@ class _ViewFeedbacksState extends State<ViewFeedbacks> {
       String lid = sh.getString("lid") ?? '';
 
       String url = '$urls/AdminViewFeedbacks';
-      var response = await http.post(
-        Uri.parse(url),
-        // body: {
-        //   'org_id': lid,
-        // },
-      );
+      var response = await http.post(Uri.parse(url),);
 
       var jsondata = json.decode(response.body);
       if (jsondata['status'] == 'ok' && jsondata['feedbacks'] is List && jsondata['feedbacks'].isNotEmpty) {
